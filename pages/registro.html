@@ -94,50 +94,77 @@
       </nav>
     </header>
     <main>
-        <!-- Si el usuario no tiene un usuario debe poder registrarse en el
-        ecommerce, para ello diseñar una página que solicite al usuario almenos lo
-        siguientes datos:
-        ● Nombre y apellido
-        ● nombre de usuario
-        ● dirección de email
-        ● teléfono
-        ● domicilio
-        ● código postal
-        ● contraseña
-        Pueden agregar más datos si los consideran necesarios. -->
-        <div class="container py-5">
-          <form>
-            <div class="mb-3">
-                <label for="nombreApellido" class="form-label">Nombre y apellido</label>
-                <input type="text" class="form-control" id="nombreApellido" placeholder="Nombre Apellido" required minlength="3" maxlength="50">
-            </div>
-            <div class="mb-3">
-                <label for="userName" class="form-label">Nombre de usuario</label>
-                <input type="text" class="form-control" id="userName" placeholder="usuario" required minlength="7" maxlength="10">
-            </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" placeholder="name@example.com">
-            </div>
-            <div class="mb-3">
-                <label for="telefono" class="form-label">Tel&eacute;fono</label>
-                <input type="email" class="form-control" id="telefono" placeholder="tel&eacute;fono">
-            </div>
-            <div class="mb-3">
-                <label for="domicilio" class="form-label">Domicilio</label>
-                <input type="email" class="form-control" id="domicilio" placeholder="calle número">
-            </div>
-            <div class="mb-3">
-                <label for="codigoPostal" class="form-label">C&oacute;digo Postal</label>
-                <input type="email" class="form-control" id="codigoPostal" placeholder="4000">
-            </div>
-            <div class="mb-3">
-                <label for="password" class="form-label">Contrase&nacute;a</label>
-                <input type="email" class="form-control" id="password" placeholder="">
-            </div>
-        </div>
-        <button type="submit">Enviar</button>
-      </form>
+      <div class="container py-5">
+        <form class="row g-3">
+          <div class="col-md-12">
+            <label for="nombreApellido" class="form-label text-white">Nombre y apellido</label>
+            <input type="text" class="form-control" id="nombreApellido" placeholder="Nombre Apellido"
+              required minlength="3" maxlength="50"
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="email" class="form-label text-white">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="name@example.com"/>
+          </div>
+          <div class="col-md-3">
+            <label for="userName" class="form-label text-white">Usuario</label>
+            <input
+              type="text"
+              class="form-control"
+              id="userName"
+              placeholder="usuario"
+              required
+              minlength="7"
+              maxlength="10"
+            />
+          </div>
+          <div class="col-md-3">
+            <label for="password" class="form-label text-white"
+              >Contrase&ntilde;a</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="password"
+              placeholder=""
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="domicilio" class="form-label text-white"
+              >Domicilio</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="domicilio"
+              placeholder="calle número"
+            />
+          </div>
+          <div class="col-md-2">
+            <label for="codigoPostal" class="form-label text-white"
+              >C&oacute;digo Postal</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="codigoPostal"
+              placeholder="4000"
+            />
+          </div>
+          <div class="col-md-4">
+            <label for="telefono" class="form-label text-white"
+              >Tel&eacute;fono</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="telefono"
+              placeholder="tel&eacute;fono"
+            />
+          </div>
+          <button type="submit" class="btn btn-success">Enviar</button>
+        </form>
+      </div>
     </main>
     <footer>
       <div class="py-3 bg-black text-light">
