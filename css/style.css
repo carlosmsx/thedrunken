@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
 .bg-black{
     background-color: #000;
 }
+
+.logo{
+    font-family: 'Archivo Black', sans-serif;
+}
+
 /* Buscador del navbar */
 .nav-search{
     background: #fff;
@@ -13,7 +20,7 @@
     border-bottom-right-radius: 0;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    width:350px;
+    width:280px;
     height: 35px;
     padding-left: 15px;
 }
@@ -55,7 +62,23 @@
 }
 
 /* Media para que desaparesca el buscador en un determinado tamaño */
-@media all and (max-width:991px){ */
+/* Media para que desaparesca el buscador en un determinado tamaño */
+@media all and (min-width:768px){ 
+    .nav-search{
+        width:400px;
+    }
+}
+@media all and (min-width:1024px){ 
+    .nav-search{
+        width:330px;
+    }
+}
+@media all and (min-width:1400px){ 
+    .nav-search{
+        width:450px;
+    }
+}
+@media all and (min-width:0px) and (max-width:281px){ 
     .nav-search{
         display: none;
     }
