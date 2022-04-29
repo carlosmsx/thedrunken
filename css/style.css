@@ -50,6 +50,10 @@
     color: #000;
 }
 
+.fondoPrueba {
+    background: #000;
+}
+
 /* Media para que desaparesca el buscador en un determinado tamaño */
 @media all and (max-width:991px){ */
     .nav-search{
