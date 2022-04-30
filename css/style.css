@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
-.bg-black{
-    background-color: #000;
+.bg-nav{
+    background-color: #00001e;
 }
-
+.bg-cuerpo{
+    background-color: #eeeeee;
+}
+.bg-button{
+    background-color: #f82d30;
+}
+.links{
+    color: #f82d30;
+}
 .logo{
     font-family: 'Archivo Black', sans-serif;
 }
@@ -61,7 +69,6 @@
     background: #000;
 }
 
-/* Media para que desaparesca el buscador en un determinado tamaño */
 /* Media para que desaparesca el buscador en un determinado tamaño */
 @media all and (min-width:768px){ 
     .nav-search{
