@@ -9,11 +9,8 @@
       name="author"
       content="Francisco Andrade, Vale Ormaechea, Carlos Escobar"
     />
-    <meta name="description" content="Venta de bebidas alcoholicas" />
-    <meta
-      name="keywords"
-      content="+18,cerveza,licor,whisky,bebidas,mojitos,tekila,ron"
-    />
+    <meta name="description" content="error404" />
+    <meta name="keywords" content="no funciona,error404" />
 
     <script
       src="https://kit.fontawesome.com/db30d1a3bd.js"
@@ -21,7 +18,7 @@
     ></script>
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/style.css" />
-    <title>theDrunken</title>
+    <title>THEdrunken</title>
   </head>
   <body class="bg-cuerpo">
     <header>
@@ -57,12 +54,12 @@
             </form>
             <ul class="navbar-nav ms-auto me-0 mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.html"
-                  >Inicio</a
-                >
+                <a class="nav-link" href="../index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="quienesSomos.html">Acerca de</a>
+                <a class="nav-link" href="../pages/quienesSomos.html"
+                  >Acerca de</a
+                >
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -82,9 +79,7 @@
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="catVinos.html"
-                      >Vinos</a
-                    >
+                    <a class="dropdown-item" href="catVinos.html">Vinos</a>
                   </li>
                 </ul>
               </li>
@@ -93,7 +88,10 @@
                   <a class="nav-link pe-0" href="#">Iniciar Sesion</a>
                 </div>
                 <div class="col-2 col-md-1 col-lg-2 text-center">
-                  <a class="nav-link ps-auto" href="carrito.html"
+                  <a
+                    class="nav-link ps-auto active"
+                    aria-current="page"
+                    href="carrito.html"
                     ><i class="fa-solid fa-cart-shopping"></i
                   ></a>
                 </div>
@@ -104,76 +102,8 @@
       </nav>
     </header>
     <main class="bg-main">
-      <div class="container py-5">
-        <form class="row g-3">
-          <div class="col-md-12">
-            <label for="nombreApellido" class="form-label">Nombre y apellido</label>
-            <input type="text" class="form-control" id="nombreApellido" placeholder="Nombre Apellido"
-              required minlength="3" maxlength="50"
-            />
-          </div>
-          <div class="col-md-6">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" placeholder="name@example.com"/>
-          </div>
-          <div class="col-md-3">
-            <label for="userName" class="form-label">Usuario</label>
-            <input
-              type="text"
-              class="form-control"
-              id="userName"
-              placeholder="usuario"
-              required
-              minlength="7"
-              maxlength="10"
-            />
-          </div>
-          <div class="col-md-3">
-            <label for="password" class="form-label"
-              >Contrase&ntilde;a</label
-            >
-            <input
-              type="email"
-              class="form-control"
-              id="password"
-              placeholder=""
-            />
-          </div>
-          <div class="col-md-6">
-            <label for="domicilio" class="form-label"
-              >Domicilio</label
-            >
-            <input
-              type="email"
-              class="form-control"
-              id="domicilio"
-              placeholder="calle número"
-            />
-          </div>
-          <div class="col-md-2">
-            <label for="codigoPostal" class="form-label"
-              >C&oacute;digo Postal</label
-            >
-            <input
-              type="email"
-              class="form-control"
-              id="codigoPostal"
-              placeholder="4000"
-            />
-          </div>
-          <div class="col-md-4">
-            <label for="telefono" class="form-label"
-              >Tel&eacute;fono</label
-            >
-            <input
-              type="email"
-              class="form-control"
-              id="telefono"
-              placeholder="tel&eacute;fono"
-            />
-          </div>
-          <button type="submit" class="col-1 btn btn-success">Enviar</button>
-        </form>
+      <div class="py-5 text-center">
+        <img src="../img/error404.png" alt="error404" />
       </div>
     </main>
     <footer class="bg-light">
@@ -182,7 +112,7 @@
           <div class="justify-content-between row text-center text-md-start">
             <div class="col-12 col-md-12 col-lg-4 py-4 logo">
               <h5>theDrunken</h5>
-                </div>
+            </div>
             <div class="col-12 col-md-6 col-lg-4">
               <h6 class="pt-5 pt-md-4">Sigamos Conectados</h6>
               <div class="my-3">
@@ -201,35 +131,45 @@
                   ><i class="fa-brands fa-telegram text-secondary fs-4 mx-1"></i
                 ></a>
                 <h6 class="pt-5 pt-md-4">Formas de Pago</h6>
-                </div>
+              </div>
               <div>
                 <img src="../img/pagos.webp" width="70%" alt="tipos de pagos" />
               </div>
-                </div>
+            </div>
             <div class="col-12 col-md-6 col-lg-4">
               <h6 class="pt-5 pt-md-4">Nosotros</h6>
               <p class="my-1 fs-6">
-                <a class="text-dark text-decoration-none" href="#"
+                <a
+                  class="text-dark text-decoration-none"
+                  href="quienesSomos.html"
                   >Formas de pago</a
                 >
               </p>
               <p class="my-1 fs-6">
-                <a class="text-dark text-decoration-none" href="#"
+                <a
+                  class="text-dark text-decoration-none"
+                  href="quienesSomos.html"
                   >Tiempos y formas de entrega</a
                 >
               </p>
               <p class="my-1 fs-6">
-                <a class="text-dark text-decoration-none" href="#"
+                <a
+                  class="text-dark text-decoration-none"
+                  href="quienesSomos.html"
                   >Quienes somos</a
                 >
               </p>
               <p class="my-1 fs-6">
-                <a class="text-dark text-decoration-none" href="#"
+                <a
+                  class="text-dark text-decoration-none"
+                  href="quienesSomos.html"
                   >Sucursales</a
                 >
               </p>
               <p class="my-1 fs-6">
-                <a class="text-dark text-decoration-none" href="#"
+                <a
+                  class="text-dark text-decoration-none"
+                  href="quienesSomos.html"
                   >Devoluciones</a
                 >
               </p>
@@ -240,8 +180,8 @@
                   width="18%"
                   alt="datos fiscales"
                 />
+              </div>
             </div>
-          </div>
           </div>
           <p class="text-center mt-5">
             theDrunken &copy; 2022. Todos los derechos reservados
