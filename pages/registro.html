@@ -21,31 +21,35 @@
     ></script>
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/style.css" />
-    <title>THEdruken</title>
+    <title>theDrunken</title>
   </head>
-  <body>
+  <body class="bg-cuerpo">
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-black py-3">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-nav py-3">
         <div class="container">
-          <a class="navbar-brand" href="#">theDruken</a>
+          <a class="navbar-brand logo" href="../index.html">theDrunken</a>
           <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
+            data-bs-target="#contenidoNav"
+            aria-controls="contenidoNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <form class="d-flex ms-auto">
+          <div class="collapse navbar-collapse" id="contenidoNav">
+            <form
+              class="d-flex justify-content-center ms-auto mt-4 mb-3 my-lg-2"
+            >
               <input
                 class="nav-search"
                 type="search"
                 placeholder="Buscá tu bebida favorita"
                 aria-label="Search"
+                required
+                minlength="2"
               />
               <button class="nav-search-icon" type="submit">
                 <i class="fa-solid fa-magnifying-glass"></i>
@@ -53,35 +57,43 @@
             </form>
             <ul class="navbar-nav ms-auto me-0 mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                <a class="nav-link active" aria-current="page" href="../index.html"
+                  >Inicio</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Acerca de</a>
+                <a class="nav-link" href="quienesSomos.html">Acerca de</a>
               </li>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
                   href="#"
-                  id="navbarDropdown"
+                  id="navbarDesplegable"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
                   Catalogo
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="cervezas.html">Cervezas</a></li>
-                  <li><a class="dropdown-item" href="#">Vinos</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li><a class="dropdown-item" href="#">Gaseosas</a></li>
+                <ul class="dropdown-menu" aria-labelledby="navbarDesplegable">
+                  <li>
+                    <a class="dropdown-item" href="catCervezas.html"
+                      >Cervezas</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="catVinos.html"
+                      >Vinos</a
+                    >
+                  </li>
                 </ul>
               </li>
               <li class="nav-item row">
-                <div class="col-10 col-lg-10 pe-0">
+                <div class="col-10 col-md-11 col-lg-10 pe-0">
                   <a class="nav-link pe-0" href="#">Iniciar Sesion</a>
                 </div>
-                <div class="col-2 col-lg-2 ps-0">
-                  <a class="nav-link ps-0" href="#"
+                <div class="col-2 col-md-1 col-lg-2 text-center">
+                  <a class="nav-link ps-auto" href="carrito.html"
                     ><i class="fa-solid fa-cart-shopping"></i
                   ></a>
                 </div>
@@ -91,7 +103,7 @@
         </div>
       </nav>
     </header>
-    <main>
+    <main class="bg-main">
       <div class="container py-5">
         <form class="row g-3">
           <div class="col-md-12">
@@ -164,55 +176,76 @@
         </form>
       </div>
     </main>
-    <footer>
-      <div class="py-3 bg-black text-light">
+    <footer class="bg-light">
+      <div class="py-3">
         <div class="container">
-          <div class="justify-content-between row">
-            <div class="col-12 col-lg-4 py-3"><h5>THEdruken</h5></div>
-            <div class="col-12 col-lg-4">
-              <h6 class="py-3">Nuestras Redes:</h6>
-              <div class="row">
-                <div class="col-2">
-                  <a href="#"><i class="fa-brands fa-facebook text-secondary fs-4"></i></a>
+          <div class="justify-content-between row text-center text-md-start">
+            <div class="col-12 col-md-12 col-lg-4 py-4 logo">
+              <h5>theDrunken</h5>
                 </div>
-                <div class="col-10">
-                  <p>Facebook</p>
+            <div class="col-12 col-md-6 col-lg-4">
+              <h6 class="pt-5 pt-md-4">Sigamos Conectados</h6>
+              <div class="my-3">
+                <a href="#"
+                  ><i class="fa-brands fa-facebook text-secondary fs-4 mx-1"></i
+                ></a>
+                <a href="#"
+                  ><i
+                    class="fa-brands fa-instagram text-secondary fs-4 mx-1"
+                  ></i
+                ></a>
+                <a href="#"
+                  ><i class="fa-brands fa-whatsapp text-secondary fs-4 mx-1"></i
+                ></a>
+                <a href="#"
+                  ><i class="fa-brands fa-telegram text-secondary fs-4 mx-1"></i
+                ></a>
+                <h6 class="pt-5 pt-md-4">Formas de Pago</h6>
                 </div>
+              <div>
+                <img src="img/pagos.webp" width="70%" alt="tipos de pagos" />
               </div>
-              <div class="row">
-                <div class="col-2">
-                  <a href="#"><i class="fa-brands fa-instagram text-secondary fs-4"></i></a>
                 </div>
-                <div class="col-10">
-                  <p>Instagram</p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-2">
-                  <a href="#"><i class="fa-brands fa-whatsapp text-secondary fs-4"></i></a>
-                </div>
-                <div class="col-10">
-                  <p>Whatsapp</p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-2">
-                  <a href="#"><i class="fa-brands fa-telegram text-secondary fs-4"></i></a>
-                </div>
-                <div class="col-10">
-                  <p>Telegram</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-lg-4">
-              <h6 class="py-3">Descripcion:</h6>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Doloremque distinctio odio deleniti explicabo dolorem provident
-                quibusdam excepturi, eveniet commodi minima.
+            <div class="col-12 col-md-6 col-lg-4">
+              <h6 class="pt-5 pt-md-4">Nosotros</h6>
+              <p class="my-1 fs-6">
+                <a class="text-dark text-decoration-none" href="#"
+                  >Formas de pago</a
+                >
               </p>
+              <p class="my-1 fs-6">
+                <a class="text-dark text-decoration-none" href="#"
+                  >Tiempos y formas de entrega</a
+                >
+              </p>
+              <p class="my-1 fs-6">
+                <a class="text-dark text-decoration-none" href="#"
+                  >Quienes somos</a
+                >
+              </p>
+              <p class="my-1 fs-6">
+                <a class="text-dark text-decoration-none" href="#"
+                  >Sucursales</a
+                >
+              </p>
+              <p class="my-1 fs-6">
+                <a class="text-dark text-decoration-none" href="#"
+                  >Devoluciones</a
+                >
+              </p>
+              <div>
+                <img
+                  class="py-3 img-fluid"
+                  src="img/DATAWEB.jpg"
+                  width="18%"
+                  alt="datos fiscales"
+                />
             </div>
           </div>
+          </div>
+          <p class="text-center mt-5">
+            theDrunken &copy; 2022. Todos los derechos reservados
+          </p>
         </div>
       </div>
     </footer>
