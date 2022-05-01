@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
 
+/* Colores */
 .bg-nav {
   background-color: #00001e;
 }
@@ -14,6 +15,10 @@
 }
 .logo {
   font-family: "Archivo Black", sans-serif;
+}
+
+.bg-bodyGris {
+  background-color: #e2e1e2;
 }
 
 /* Buscador del navbar */
@@ -56,32 +61,6 @@
   object-fit: cover;
 }
 
-/* Cards productos */
-.cardProd h5 {
-  font-weight: 600;
-}
-
-.imgCatProducto {
-  height: 150px;
-  object-fit: cover;
-}
-
-.textCatProducto {
-  color: white;
-  font-weight: 700;
-}
-
-.botonAñadirCarrito {
-  color: black;
-  border: #f82d30;
-  background-color: #f82d30;
-}
-
-.botonAñadirCarrito:hover {
-  background: #ff6a5b;
-  border: #f82d30;
-}
-
 /* Cambio de colores paginacion */
 .pagination > li > a {
   background-color: white;
@@ -121,7 +100,42 @@
   background: #000;
 }
 
-/* Media para que desaparesca el buscador en un determinado tamaño */
+/* Cards productos */
+
+.cardProd h5 {
+  font-weight: 600;
+}
+
+.imgCatProducto {
+  height: 150px;
+  object-fit: cover;
+}
+
+.textCatProducto {
+  color: white;
+  font-weight: 700;
+}
+
+.botonAñadirCarrito {
+  color: black;
+  border: #f82d30;
+  background-color: #f82d30;
+}
+
+.botonAñadirCarrito:hover {
+  color: white;
+  background: #ff6a5b;
+  border: #f82d30;
+}
+
+/* Pagina principal */
+
+.imgBanner {
+  height: 250px;
+  object-fit: cover;
+}
+
+/* Media para que desaparezca el buscador en un determinado tamaño */
 @media all and (min-width: 768px) {
   .nav-search {
     width: 400px;
@@ -146,9 +160,20 @@
   }
 }
 
-/* Mediaqueries para imagen categoria */
+/* Pantallas medianas */
+@media (min-width: 768px) and (max-width: 991px) {
+  .imgBanner {
+    height: 500px;
+  }
+}
+
+/* Pantallas grandes */
 @media all and (min-width: 992px) {
   .imgCatProducto {
-    height: 250px;
+    height: 500px;
+  }
+
+  .imgBanner {
+    height: 600px;
   }
 }

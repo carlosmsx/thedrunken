@@ -4,254 +4,485 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Maria Valentina Ormaechea" />
-    <meta name="description" content="bebidas, cervezas, alcohol, previa" />
+    <meta
+      name="author"
+      content="Francisco Andrade, Carlos Escobar, Maria Valentina Ormaechea"
+    />
+    <meta name="description" content="Venta de bebidas alcoholicas" />
     <meta
       name="keywords"
-      content="bebidas, cervezas, alcohol, previa, destilados, "
+      content="+18, licor, bebidas, cervezas, alcohol, previa, destilados, whisky"
     />
+    <script
+      src="https://kit.fontawesome.com/db30d1a3bd.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/style.css" />
     <title>theDrunken</title>
   </head>
-  <header></header>
-  <body class="azulOscuro">
-    <section class="position-relative w-100 d-flex align-items-center">
-      <img
-        src="../img/catVinos.jpeg"
-        alt="Copas de vino"
-        class="w-100 imgCatProducto"
-      />
-      <article
-        class="w-100 position-absolute d-flex p-4 p-lg-5"
-      >
-        <h1 class="w-100 textCatProducto mb-0">Vinos</h1>
-      </article>
-    </section>
-    <section class="container">
-      <article class="row">
-        <div class="col-12 col-md-4 col-lg-3 my-3">
-          <div class="card h-100 cardProd">
-            <img
-              src="../img/vino/vino_abrasados_malbec.jpg"
-              class="card-img-top w-100"
-              alt="Botella de vino tinto"
-            />
-            <div class="card-body px-3 py-4">
-              <h5 class="card-text">Abrasados Blend De Malbec 750ml.</h5>
-            </div>
-            <div class="card-footer bg-white d-flex justify-content-between flex-md-wrap flex-lg-nowrap justify-content-md-center justify-content-lg-between">
-              <b class="fs-4">$312,94</b>
-              <button class="btn rojoSecundario mt-md-2 mt-lg-0 botonAñadirCarrito">Añadir al carrito</button>
-            </div>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-nav py-3">
+        <div class="container">
+          <a class="navbar-brand logo" href="../index.html">theDrunken</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#contenidoNav"
+            aria-controls="contenidoNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="contenidoNav">
+            <form
+              class="d-flex justify-content-center ms-auto mt-4 mb-3 my-lg-2"
+            >
+              <input
+                class="nav-search"
+                type="search"
+                placeholder="Buscá tu bebida favorita"
+                aria-label="Search"
+                required
+                minlength="2"
+              />
+              <button class="nav-search-icon" type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+            <ul class="navbar-nav ms-auto me-0 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="quienesSomos.html">Acerca de</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDesplegable"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Catalogo
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDesplegable">
+                  <li>
+                    <a class="dropdown-item" href="catCervezas.html"
+                      >Cervezas</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item active"
+                      aria-current="page"
+                      href="catVinos.html"
+                      >Vinos</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item row">
+                <div class="col-10 col-md-11 col-lg-10 pe-0">
+                  <a class="nav-link pe-0" href="#">Iniciar Sesion</a>
+                </div>
+                <div class="col-2 col-md-1 col-lg-2 text-center">
+                  <a class="nav-link ps-auto" href="carrito.html"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="col-12 col-md-4 col-lg-3 my-3">
-          <div class="card h-100 cardProd">
-            <img
-              src="../img/vino/vino_aime_blancoDulce.jpg"
-              class="card-img-top w-100"
-              alt="Botella de vino blanco"
-            />
-            <div class="card-body px-3 py-4">
-              <h5 class="card-text">Aime Blanco Dulce Natural 750ml.</h5>
-            </div>
-            <div class="card-footer bg-white d-flex justify-content-between flex-md-wrap flex-lg-nowrap justify-content-md-center justify-content-lg-between">
-              <b class="fs-4">$300</b>
-              <button class="btn rojoSecundario mt-md-2 mt-lg-0 botonAñadirCarrito">Añadir al carrito</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-4 col-lg-3 my-3">
-          <div class="card h-100 cardProd">
-            <img
-              src="../img/vino/vino_alamos_malbec.jpg"
-              class="card-img-top w-100"
-              alt="Botella de vino rosado"
-            />
-            <div class="card-body px-3 py-4">
-              <h5 class="card-text">
-                Alamos Malbec Masceracion Atenuada 750ml.
-              </h5>
-            </div>
-            <div class="card-footer bg-white d-flex justify-content-between flex-md-wrap flex-lg-nowrap justify-content-md-center justify-content-lg-between">
-              <b class="fs-4">$300</b>
-              <button class="btn rojoSecundario mt-md-2 mt-lg-0 botonAñadirCarrito">Añadir al carrito</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-4 col-lg-3 my-3">
-          <div class="card h-100 cardProd">
-            <img
-              src="../img/vino/vino_almaMora_cabernetS.jpg"
-              class="card-img-top w-100"
-              alt="Botella de vino tinto"
-            />
-            <div class="card-body px-3 py-4">
-              <h5 class="card-text">Alma Mora Cabernet Sauvignon 750ml.</h5>
-            </div>
-            <div class="card-footer bg-white d-flex justify-content-between flex-md-wrap flex-lg-nowrap justify-content-md-center justify-content-lg-between">
-              <b class="fs-4">$300</b>
-              <button class="btn rojoSecundario mt-md-2 mt-lg-0 botonAñadirCarrito">Añadir al carrito</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-4 col-lg-3 my-3">
-          <div class="card h-100 cardProd">
-            <img
-              src="../img/vino/vino_cafayate_torrontes.jpg"
-              class="card-img-top w-100"
-              alt="Botella de vino blanco"
-            />
-            <div class="card-body px-3 py-4">
-              <h5 class="card-text">
-                Cafayate Torrontes Cosecha Tardia 750ml.
-              </h5>
-            </div>
-            <div class="card-footer bg-white d-flex justify-content-between flex-md-wrap flex-lg-nowrap justify-content-md-center justify-content-lg-between">
-              <b class="fs-4">$388,00</b>
-              <button class="btn rojoSecundario mt-md-2 mt-lg-0 botonAñadirCarrito">Añadir al carrito</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-4 col-lg-3 my-3">
-          <div class="card h-100 cardProd">
-            <img
-              src="../img/vino/vino_callia_chardonnay.jpg"
-              class="card-img-top w-100"
-              alt="Botella de vino blanco"
-            />
-            <div class="card-body px-3 py-4">
-              <h5 class="card-text">Callia Chardonnay 750ml.</h5>
-            </div>
-            <div class="card-footer bg-white d-flex justify-content-between flex-md-wrap flex-lg-nowrap justify-content-md-center justify-content-lg-between">
-              <b class="fs-4">$319,50</b>
-              <button class="btn rojoSecundario mt-md-2 mt-lg-0 botonAñadirCarrito">Añadir al carrito</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-4 col-lg-3 my-3">
-          <div class="card h-100 cardProd">
-            <img
-              src="../img/vino/vino_champagneNorton_dulce.jpg"
-              class="card-img-top w-100"
-              alt="Botella de champagne"
-            />
-            <div class="card-body px-3 py-4">
-              <h5 class="card-text">Champagne Norton Dulce 750ml.</h5>
-            </div>
-            <div class="card-footer bg-white d-flex justify-content-between flex-md-wrap flex-lg-nowrap justify-content-md-center justify-content-lg-between">
-              <b class="fs-4">$300</b>
-              <button class="btn rojoSecundario mt-md-2 mt-lg-0 botonAñadirCarrito">Añadir al carrito</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-4 col-lg-3 my-3">
-          <div class="card h-100 cardProd">
-            <img
-              src="../img/vino/vino_contraviento_blend.jpg"
-              class="card-img-top w-100"
-              alt="Botella de vino tinto"
-            />
-            <div class="card-body px-3 py-4">
-              <h5 class="card-text">Contraviento Blend 750ml.</h5>
-            </div>
-            <div class="card-footer bg-white d-flex justify-content-between flex-md-wrap flex-lg-nowrap justify-content-md-center justify-content-lg-between">
-              <b class="fs-4">$300</b>
-              <button class="btn rojoSecundario mt-md-2 mt-lg-0 botonAñadirCarrito">Añadir al carrito</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-4 col-lg-3 my-3">
-          <div class="card h-100 cardProd">
-            <img
-              src="../img/vino/vino_donDavid_reservaMalbec.jpg"
-              class="card-img-top w-100"
-              alt="Botella de vino tinto"
-            />
-            <div class="card-body px-3 py-4">
-              <h5 class="card-text">Don David Reserva Malbec 750ml.</h5>
-            </div>
-            <div class="card-footer bg-white d-flex justify-content-between flex-md-wrap flex-lg-nowrap justify-content-md-center justify-content-lg-between">
-              <b class="fs-4">$300</b>
-              <button class="btn rojoSecundario mt-md-2 mt-lg-0 botonAñadirCarrito">Añadir al carrito</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-4 col-lg-3 my-3">
-          <div class="card h-100 cardProd">
-            <img
-              src="../img/vino/vino_donValentin_blanco.jpg"
-              class="card-img-top w-100"
-              alt="Botella de vino blanco"
-            />
-            <div class="card-body px-3 py-4">
-              <h5 class="card-text">Don Valentin Lacrado Blanco 750ml.</h5>
-            </div>
-            <div class="card-footer bg-white d-flex justify-content-between flex-md-wrap flex-lg-nowrap justify-content-md-center justify-content-lg-between">
-              <b class="fs-4">$300</b>
-              <button class="btn rojoSecundario mt-md-2 mt-lg-0 botonAñadirCarrito">Añadir al carrito</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-4 col-lg-3 my-3">
-          <div class="card h-100 cardProd">
-            <img
-              src="../img/vino/vino_dilema_rosado.jpg"
-              class="card-img-top w-100"
-              alt="Botella de vino rosado"
-            />
-            <div class="card-body px-3 py-4">
-              <h5 class="card-text">Dilema Rosado Dulce Natural 750ml.</h5>
-            </div>
-            <div class="card-footer bg-white d-flex justify-content-between flex-md-wrap flex-lg-nowrap justify-content-md-center justify-content-lg-between">
-              <b class="fs-4">$389,53</b>
-              <button class="btn rojoSecundario mt-md-2 mt-lg-0 botonAñadirCarrito">Añadir al carrito</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-4 col-lg-3 my-3">
-          <div class="card h-100 cardProd">
-            <img
-              src="../img/vino/vino_moscatino_blend.jpg"
-              class="card-img-top w-100"
-              alt="Botella de vino rosado"
-            />
-            <div class="card-body px-3 py-4">
-              <h5 class="card-text">Moscatino Blend 750ml.</h5>
-            </div>
-            <div class="card-footer bg-white d-flex justify-content-between flex-md-wrap flex-lg-nowrap justify-content-md-center justify-content-lg-between">
-              <b class="fs-4">$361,37</b>
-              <button class="btn rojoSecundario mt-md-2 mt-lg-0 botonAñadirCarrito">Añadir al carrito</button>
-            </div>
-          </div>
-        </div>
-      </article>
-      <nav
-        aria-label="Page navigation example"
-        class="d-flex justify-content-center"
-      >
-        <ul class="pagination">
-          <li class="page-item disabled">
-            <a class="page-link" href="#" aria-label="Previous">
-              <span aria-hidden="true">&laquo;</span>
-            </a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="catCervezas.html">1</a>
-          </li>
-          <li class="page-item active">
-            <a class="page-link" href="catVinos.html">2</a>
-          </li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
-          <li class="page-item">
-            <a class="page-link" href="#" aria-label="Next">
-              <span aria-hidden="true">&raquo;</span>
-            </a>
-          </li>
-        </ul>
       </nav>
-    </section>
+    </header>
+    <main class="bg-bodyGris">
+      <section class="position-relative w-100 d-flex align-items-center">
+        <img
+          src="../img/catVinos.jpeg"
+          alt="Copas de vino"
+          class="w-100 imgCatProducto"
+        />
+        <article class="w-100 position-absolute d-flex p-4 p-lg-5">
+          <h1 class="w-100 textCatProducto mb-0">Vinos</h1>
+        </article>
+      </section>
+      <section class="container">
+        <article class="row">
+          <div class="col-6 col-md-4 col-lg-3 my-3">
+            <div class="card h-100 cardProd">
+              <img
+                src="../img/vino/vino_abrasados_malbec.jpg"
+                class="card-img-top w-100"
+                alt="Botella de vino tinto"
+              />
+              <div class="card-body px-3 py-4">
+                <h5 class="card-text">Abrasados Blend De Malbec 750ml.</h5>
+              </div>
+              <div
+              class="card-footer bg-white d-flex flex-wrap justify-content-center flex-lg-nowrap justify-content-lg-between"
+              >
+                <b class="fs-4">$312,94</b>
+                <button
+                  class="btn rojoSecundario my-2 mt-lg-0 botonAñadirCarrito"
+                >
+                  Añadir al carrito
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 my-3">
+            <div class="card h-100 cardProd">
+              <img
+                src="../img/vino/vino_aime_blancoDulce.jpg"
+                class="card-img-top w-100"
+                alt="Botella de vino blanco"
+              />
+              <div class="card-body px-3 py-4">
+                <h5 class="card-text">Aime Blanco Dulce Natural 750ml.</h5>
+              </div>
+              <div
+                class="card-footer bg-white d-flex flex-wrap justify-content-center flex-lg-nowrap justify-content-lg-between"
+              >
+                <b class="fs-4">$300</b>
+                <button
+                  class="btn rojoSecundario my-2 mt-lg-0 botonAñadirCarrito"
+                >
+                  Añadir al carrito
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 my-3">
+            <div class="card h-100 cardProd">
+              <img
+                src="../img/vino/vino_alamos_malbec.jpg"
+                class="card-img-top w-100"
+                alt="Botella de vino rosado"
+              />
+              <div class="card-body px-3 py-4">
+                <h5 class="card-text">
+                  Alamos Malbec Masceracion Atenuada 750ml.
+                </h5>
+              </div>
+              <div
+                class="card-footer bg-white d-flex flex-wrap justify-content-center flex-lg-nowrap justify-content-lg-between"
+              >
+                <b class="fs-4">$300</b>
+                <button
+                  class="btn rojoSecundario my-2 mt-lg-0 botonAñadirCarrito"
+                >
+                  Añadir al carrito
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 my-3">
+            <div class="card h-100 cardProd">
+              <img
+                src="../img/vino/vino_almaMora_cabernetS.jpg"
+                class="card-img-top w-100"
+                alt="Botella de vino tinto"
+              />
+              <div class="card-body px-3 py-4">
+                <h5 class="card-text">Alma Mora Cabernet Sauvignon 750ml.</h5>
+              </div>
+              <div
+                class="card-footer bg-white d-flex flex-wrap justify-content-center flex-lg-nowrap justify-content-lg-between"
+              >
+                <b class="fs-4">$300</b>
+                <button
+                  class="btn rojoSecundario my-2 mt-lg-0 botonAñadirCarrito"
+                >
+                  Añadir al carrito
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 my-3">
+            <div class="card h-100 cardProd">
+              <img
+                src="../img/vino/vino_cafayate_torrontes.jpg"
+                class="card-img-top w-100"
+                alt="Botella de vino blanco"
+              />
+              <div class="card-body px-3 py-4">
+                <h5 class="card-text">
+                  Cafayate Torrontes Cosecha Tardia 750ml.
+                </h5>
+              </div>
+              <div
+                class="card-footer bg-white d-flex flex-wrap justify-content-center flex-lg-nowrap justify-content-lg-between"
+              >
+                <b class="fs-4">$388,00</b>
+                <button
+                  class="btn rojoSecundario my-2 mt-lg-0 botonAñadirCarrito"
+                >
+                  Añadir al carrito
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 my-3">
+            <div class="card h-100 cardProd">
+              <img
+                src="../img/vino/vino_callia_chardonnay.jpg"
+                class="card-img-top w-100"
+                alt="Botella de vino blanco"
+              />
+              <div class="card-body px-3 py-4">
+                <h5 class="card-text">Callia Chardonnay 750ml.</h5>
+              </div>
+              <div
+                class="card-footer bg-white d-flex flex-wrap justify-content-center flex-lg-nowrap justify-content-lg-between"
+              >
+                <b class="fs-4">$319,50</b>
+                <button
+                  class="btn rojoSecundario my-2 mt-lg-0 botonAñadirCarrito"
+                >
+                  Añadir al carrito
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 my-3">
+            <div class="card h-100 cardProd">
+              <img
+                src="../img/vino/vino_champagneNorton_dulce.jpg"
+                class="card-img-top w-100"
+                alt="Botella de champagne"
+              />
+              <div class="card-body px-3 py-4">
+                <h5 class="card-text">Champagne Norton Dulce 750ml.</h5>
+              </div>
+              <div
+                class="card-footer bg-white d-flex flex-wrap justify-content-center flex-lg-nowrap justify-content-lg-between"
+              >
+                <b class="fs-4">$300</b>
+                <button
+                  class="btn rojoSecundario my-2 mt-lg-0 botonAñadirCarrito"
+                >
+                  Añadir al carrito
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 my-3">
+            <div class="card h-100 cardProd">
+              <img
+                src="../img/vino/vino_contraviento_blend.jpg"
+                class="card-img-top w-100"
+                alt="Botella de vino tinto"
+              />
+              <div class="card-body px-3 py-4">
+                <h5 class="card-text">Contraviento Blend 750ml.</h5>
+              </div>
+              <div
+                class="card-footer bg-white d-flex flex-wrap justify-content-center flex-lg-nowrap justify-content-lg-between"
+              >
+                <b class="fs-4">$300</b>
+                <button
+                  class="btn rojoSecundario my-2 mt-lg-0 botonAñadirCarrito"
+                >
+                  Añadir al carrito
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 my-3">
+            <div class="card h-100 cardProd">
+              <img
+                src="../img/vino/vino_donDavid_reservaMalbec.jpg"
+                class="card-img-top w-100"
+                alt="Botella de vino tinto"
+              />
+              <div class="card-body px-3 py-4">
+                <h5 class="card-text">Don David Reserva Malbec 750ml.</h5>
+              </div>
+              <div
+                class="card-footer bg-white d-flex flex-wrap justify-content-center flex-lg-nowrap justify-content-lg-between"
+              >
+                <b class="fs-4">$300</b>
+                <button
+                  class="btn rojoSecundario my-2 mt-lg-0 botonAñadirCarrito"
+                >
+                  Añadir al carrito
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 my-3">
+            <div class="card h-100 cardProd">
+              <img
+                src="../img/vino/vino_donValentin_blanco.jpg"
+                class="card-img-top w-100"
+                alt="Botella de vino blanco"
+              />
+              <div class="card-body px-3 py-4">
+                <h5 class="card-text">Don Valentin Lacrado Blanco 750ml.</h5>
+              </div>
+              <div
+                class="card-footer bg-white d-flex flex-wrap justify-content-center flex-lg-nowrap justify-content-lg-between"
+              >
+                <b class="fs-4">$300</b>
+                <button
+                  class="btn rojoSecundario my-2 mt-lg-0 botonAñadirCarrito"
+                >
+                  Añadir al carrito
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 my-3">
+            <div class="card h-100 cardProd">
+              <img
+                src="../img/vino/vino_dilema_rosado.jpg"
+                class="card-img-top w-100"
+                alt="Botella de vino rosado"
+              />
+              <div class="card-body px-3 py-4">
+                <h5 class="card-text">Dilema Rosado Dulce Natural 750ml.</h5>
+              </div>
+              <div
+                class="card-footer bg-white d-flex flex-wrap justify-content-center flex-lg-nowrap justify-content-lg-between"
+              >
+                <b class="fs-4">$389,53</b>
+                <button
+                  class="btn rojoSecundario my-2 mt-lg-0 botonAñadirCarrito"
+                >
+                  Añadir al carrito
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 my-3">
+            <div class="card h-100 cardProd">
+              <img
+                src="../img/vino/vino_moscatino_blend.jpg"
+                class="card-img-top w-100"
+                alt="Botella de vino rosado"
+              />
+              <div class="card-body px-3 py-4">
+                <h5 class="card-text">Moscatino Blend 750ml.</h5>
+              </div>
+              <div
+                class="card-footer bg-white d-flex flex-wrap justify-content-center flex-lg-nowrap justify-content-lg-between"
+              >
+                <b class="fs-4">$361,37</b>
+                <button
+                  class="btn rojoSecundario my-2 mt-lg-0 botonAñadirCarrito"
+                >
+                  Añadir al carrito
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+        <nav
+          aria-label="Page navigation example"
+          class="d-flex justify-content-center"
+        >
+          <ul class="pagination">
+            <li class="page-item disabled">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item disabled">
+              <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item active">
+              <a class="page-link" href="catVinos.html">2</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="error404.html">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="error404.html" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </main>
+    <footer class="bg-light">
+      <div class="py-3">
+        <div class="container">
+          <div class="justify-content-between row text-center text-md-start">
+            <div class="col-12 col-md-12 col-lg-4 py-4 logo">
+              <h5>theDrunken</h5>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <h6 class="pt-5 pt-md-4">Sigamos Conectados</h6>
+              <div class="my-3">
+                <a href="#"
+                  ><i class="fa-brands fa-facebook text-secondary fs-4 mx-1"></i
+                ></a>
+                <a href="#"
+                  ><i
+                    class="fa-brands fa-instagram text-secondary fs-4 mx-1"
+                  ></i
+                ></a>
+                <a href="#"
+                  ><i class="fa-brands fa-whatsapp text-secondary fs-4 mx-1"></i
+                ></a>
+                <a href="#"
+                  ><i class="fa-brands fa-telegram text-secondary fs-4 mx-1"></i
+                ></a>
+                <h6 class="pt-5 pt-md-4">Formas de Pago</h6>
+              </div>
+              <div>
+                <img src="../img/pagos.webp" width="70%" alt="tipos de pagos" />
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <h6 class="pt-5 pt-md-4">Nosotros</h6>
+              <p class="my-1 fs-6">
+                <a class="text-dark text-decoration-none" href="#"
+                  >Formas de pago</a
+                >
+              </p>
+              <p class="my-1 fs-6">
+                <a class="text-dark text-decoration-none" href="#"
+                  >Tiempos y formas de entrega</a
+                >
+              </p>
+              <p class="my-1 fs-6">
+                <a class="text-dark text-decoration-none" href="#"
+                  >Quienes somos</a
+                >
+              </p>
+              <p class="my-1 fs-6">
+                <a class="text-dark text-decoration-none" href="#"
+                  >Sucursales</a
+                >
+              </p>
+              <p class="my-1 fs-6">
+                <a class="text-dark text-decoration-none" href="#"
+                  >Devoluciones</a
+                >
+              </p>
+              <div>
+                <img
+                  class="py-3 img-fluid"
+                  src="../img/DATAWEB.jpg"
+                  width="18%"
+                  alt="datos fiscales"
+                />
+              </div>
+            </div>
+          </div>
+          <p class="text-center mt-5">
+            theDrunken &copy; 2022. Todos los derechos reservados
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="../js/bootstrap.min.js"></script>
   </body>
-  <footer></footer>
 </html>
