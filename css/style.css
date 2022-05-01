@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@800&display=swap');
 
 /* Colores */
 .bg-nav {
@@ -14,7 +15,7 @@
   color: #f82d30;
 }
 .logo {
-  font-family: "Archivo Black", sans-serif;
+  font-family: "Lexend", sans-serif;
 }
 
 .bg-bodyGris {
@@ -162,6 +163,9 @@
 
 /* Pantallas medianas */
 @media (min-width: 768px) and (max-width: 991px) {
+  .imgCatProducto {
+    height: 200px;
+  }
   .imgBanner {
     height: 500px;
   }
@@ -170,7 +174,7 @@
 /* Pantallas grandes */
 @media all and (min-width: 992px) {
   .imgCatProducto {
-    height: 500px;
+    height: 250px;
   }
 
   .imgBanner {
