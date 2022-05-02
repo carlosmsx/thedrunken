@@ -159,6 +159,12 @@
   width: 300px;
 }
 
+/* Pagina Login */
+.imageLogin{
+  width:100%;
+  max-width:547px;
+}
+
 /* Media para que desaparezca el buscador en un determinado tamaño */
 @media all and (min-width: 768px) {
   .nav-search {
@@ -167,7 +173,7 @@
 }
 @media all and (min-width: 1024px) {
   .nav-search {
-    width: 330px;
+    width: 400px;
   }
 }
 @media all and (min-width: 1400px) {
@@ -204,9 +210,12 @@
     height: 600px;
   }
 }
+@media all and (min-width: 991px) {
+  .imgCatProducto {
+    height: 400px;
+  }
 
-/* Pagina Login */
-.imageLogin{
-  width:100%;
-  max-width:547px;
+  .imgBanner {
+    height: 600px;
+  }
 }
