@@ -167,7 +167,7 @@
 }
 @media all and (min-width: 1024px) {
   .nav-search {
-    width: 330px;
+    width: 400px;
   }
 }
 @media all and (min-width: 1400px) {
@@ -198,6 +198,15 @@
 @media all and (min-width: 992px) {
   .imgCatProducto {
     height: 250px;
+  }
+
+  .imgBanner {
+    height: 600px;
+  }
+}
+@media all and (min-width: 991px) {
+  .imgCatProducto {
+    height: 400px;
   }
 
   .imgBanner {
