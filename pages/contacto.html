@@ -9,8 +9,8 @@
       name="author"
       content="Francisco Andrade, Vale Ormaechea, Carlos Escobar"
     />
-    <meta name="description" content="error404" />
-    <meta name="keywords" content="no funciona,error404" />
+    <meta name="description" content="nosotros" />
+    <meta name="keywords" content="nombres, creadores" />
 
     <script
       src="https://kit.fontawesome.com/db30d1a3bd.js"
@@ -57,7 +57,7 @@
                 <a class="nav-link" href="../index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../pages/quienesSomos.html"
+                <a class="nav-link active" aria-current="page" href="#"
                   >Acerca de</a
                 >
               </li>
@@ -88,10 +88,7 @@
                   <a class="nav-link pe-0" href="login.html">Iniciar Sesion</a>
                 </div>
                 <div class="col-2 col-md-1 col-lg-2 text-center">
-                  <a
-                    class="nav-link ps-auto active"
-                    aria-current="page"
-                    href="carrito.html"
+                  <a class="nav-link ps-auto" href="carrito.html"
                     ><i class="fa-solid fa-cart-shopping"></i
                   ></a>
                 </div>
@@ -101,10 +98,65 @@
         </div>
       </nav>
     </header>
-    <main class="bg-main">
-      <div class="py-5 text-center">
-        <img class="img-fluid" src="../img/error404.png" alt="error404" />
-      </div>
+    <main>
+      <section class="my-5 container bg-white text-center rounded">
+        <div class="px-5 py-3 row justify-content-around">
+          <h1 class="pt-4">Contactanos</h1>
+          <hr>
+          <article class="col-12 col-xl-5">
+            <h2 class="fw-light pt-4">Consultas</h2>
+            <p class="mb-5 mt-3">
+              Escribinos por cualquier cosa relacionada con nuestra empresa o
+              nuestros servicios. Haremos todo lo posible por darle respuesta a
+              la brevedad.
+            </p>
+            <form>
+                <div class="row ">
+                    <div class="col-sm-2 col-form-label">
+                        <label for="asuntosId" class="form-label"
+                        >Asunto</label
+                        >
+                    </div>
+                    <div class="col-sm-10">
+                        <input
+                        type="email"
+                        class="form-control"
+                        id="asuntosId"
+                        placeholder="Asunto"
+                        required maxlength="20" minlength="3"
+                        />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-2 col-form-label">
+                        <label for="consultaId" class="form-label"
+                        >Consulta</label
+                        >
+                    </div>
+                    <div class="col-sm-10">
+                        <textarea
+                        class="form-control"
+                        id="consultaId"
+                        rows="3"
+                        placeholder="Escribe tu consulta, maximo 100 caracteres"
+                        required maxlength="100" minlength="20"
+                        ></textarea>
+                    </div>
+                </div>
+                <button class="btn bg-button my-4" type="submit">Enviar</button>
+            </form>
+          </article>
+          <article class="rounded col-12 col-xl-5 mb-5">
+            <h2 class="fw-light pt-4">Nuestra ubicacion</h2>
+            <img
+              class="w-100 my-3"
+              src="../img/map.png"
+              alt="direccion de la empresa"
+            />
+            <p><i class="fa-solid fa-location-dot mx-3 links"></i>Bv de la estacion, Cordoba Capital</p>
+          </article>
+        </div>
+      </section>
     </main>
     <footer class="bg-light">
       <div class="py-3">
@@ -139,37 +191,27 @@
             <div class="col-12 col-md-6 col-lg-4">
               <h6 class="pt-5 pt-md-4">Nosotros</h6>
               <p class="my-1 fs-6">
-                <a
-                  class="text-dark text-decoration-none"
-                  href="quienesSomos.html"
+                <a class="text-dark text-decoration-none" href="#"
                   >Formas de pago</a
                 >
               </p>
               <p class="my-1 fs-6">
-                <a
-                  class="text-dark text-decoration-none"
-                  href="quienesSomos.html"
+                <a class="text-dark text-decoration-none" href="#"
                   >Tiempos y formas de entrega</a
                 >
               </p>
               <p class="my-1 fs-6">
-                <a
-                  class="text-dark text-decoration-none"
-                  href="quienesSomos.html"
+                <a class="text-dark text-decoration-none" href="#"
                   >Quienes somos</a
                 >
               </p>
               <p class="my-1 fs-6">
-                <a
-                  class="text-dark text-decoration-none"
-                  href="quienesSomos.html"
+                <a class="text-dark text-decoration-none" href="#"
                   >Sucursales</a
                 >
               </p>
               <p class="my-1 fs-6">
-                <a
-                  class="text-dark text-decoration-none"
-                  href="quienesSomos.html"
+                <a class="text-dark text-decoration-none" href="#"
                   >Devoluciones</a
                 >
               </p>
