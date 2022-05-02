@@ -25,27 +25,31 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-black py-3">
+      <nav class="navbar navbar-expand-xl navbar-dark bg-nav py-3">
         <div class="container">
-          <a class="navbar-brand" href="#">theDrunken</a>
+          <a class="navbar-brand logo" href="../index.html">theDrunken</a>
           <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
+            data-bs-target="#contenidoNav"
+            aria-controls="contenidoNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <form class="d-flex ms-auto">
+          <div class="collapse navbar-collapse" id="contenidoNav">
+            <form
+              class="d-flex justify-content-center ms-auto mt-4 mb-3 my-lg-2"
+            >
               <input
                 class="nav-search"
                 type="search"
                 placeholder="Buscá tu bebida favorita"
                 aria-label="Search"
+                required
+                minlength="2"
               />
               <button class="nav-search-icon" type="submit">
                 <i class="fa-solid fa-magnifying-glass"></i>
@@ -53,37 +57,46 @@
             </form>
             <ul class="navbar-nav ms-auto me-0 mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="#"
+                <a class="nav-link" href="../index.html"
                   >Inicio</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Acerca de</a>
+                <a class="nav-link" href="quienesSomos.html">Acerca de</a>
               </li>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
                   href="#"
-                  id="navbarDropdown"
+                  id="navbarDesplegable"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
                   Catalogo
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Cervezas</a></li>
-                  <li><a class="dropdown-item" href="#">Vinos</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li><a class="dropdown-item" href="#">Gaseosas</a></li>
+                <ul class="dropdown-menu active" aria-current="page" aria-labelledby="navbarDesplegable">
+                  <li>
+                    <a class="dropdown-item" href="catCervezas.html"
+                      >Cervezas</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="catVinos.html"
+                      >Vinos</a
+                    >
+                  </li>
                 </ul>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
               <li class="nav-item row">
-                <div class="col-10 col-lg-10 pe-0">
+                <div class="col-10 col-md-11 col-lg-10 pe-0">
                   <a class="nav-link pe-0" href="login.html">Iniciar Sesion</a>
                 </div>
-                <div class="col-2 col-lg-2 ps-0">
-                  <a class="nav-link ps-0" href="#"
+                <div class="col-2 col-md-1 col-lg-2 text-center">
+                  <a class="nav-link ps-auto" href="carrito.html"
                     ><i class="fa-solid fa-cart-shopping"></i
                   ></a>
                 </div>
