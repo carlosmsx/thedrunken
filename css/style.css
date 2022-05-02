@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@800&display=swap");
 
 /* Colores */
 .bg-nav {
@@ -20,6 +20,10 @@
 
 .bg-bodyGris {
   background-color: #e2e1e2;
+}
+
+.bg-bodyAzul{
+  background-color: #232244;
 }
 
 /* Buscador del navbar */
@@ -125,7 +129,7 @@
 
 .botonAñadirCarrito:hover {
   color: white;
-  background: #ff6a5b;
+  background-color: #ff6a5b;
   border: #f82d30;
 }
 
@@ -134,6 +138,19 @@
 .imgBanner {
   height: 250px;
   object-fit: cover;
+}
+
+.badgeNuevo{
+  background: #bd0007;
+}
+
+.categoriasProd{
+  object-fit:cover;
+}
+
+.catCircle{
+  height: 300px;
+  width: 300px;
 }
 
 /* Media para que desaparezca el buscador en un determinado tamaño */
