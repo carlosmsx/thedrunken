@@ -204,6 +204,7 @@
     height: 600px;
   }
 }
+<<<<<<< HEAD
 @media all and (min-width: 991px) {
   .imgCatProducto {
     height: 400px;
@@ -213,3 +214,11 @@
     height: 600px;
   }
 }
+=======
+
+/* Pagina Login */
+.image547{
+  width:100%;
+  max-width:547px;
+}
+>>>>>>> cb3f85c1ca14b78f93915461607e74addaa0b95f
