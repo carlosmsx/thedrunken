@@ -17,8 +17,15 @@
 .bg-cuerpo {
   background-color: #eeeeee;
 }
-.bg-button {
-  background-color: #f82d30;
+.button-style {
+  color: white;
+  border: #F82D30;
+  background-color: #F82D30;
+}
+.button-style:hover {
+  color: white;
+  background-color: #ff6a5b;
+  border: #f82d30;
 }
 .links {
   color: #f82d30;
@@ -107,10 +114,6 @@
   color: #000;
 }
 
-.fondoPrueba {
-  background: #000;
-}
-
 /* Cards productos */
 
 .cardProd h5 {
@@ -125,18 +128,6 @@
 .textCatProducto {
   color: white;
   font-weight: 700;
-}
-
-.botonAñadirCarrito {
-  color: black;
-  border: #f82d30;
-  background-color: #f82d30;
-}
-
-.botonAñadirCarrito:hover {
-  color: white;
-  background-color: #ff6a5b;
-  border: #f82d30;
 }
 
 /* Pagina principal */
