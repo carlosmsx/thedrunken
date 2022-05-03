@@ -110,6 +110,10 @@
   font-size: 50px;
 }
 
+.cardProd button {
+  font-size: small;
+}
+
 /* Pagina principal */
 
 .imgBanner {
@@ -144,7 +148,7 @@
 }
 
 /* Pagina detalle */
-.imgDetalleProd{
+.imgDetalleProd {
   object-fit: cover;
 }
 
@@ -190,11 +194,14 @@
     font-size: 30px;
   }
 
+  .cardProd button {
+    font-size: 14px;
+  }
 }
 
 /* Pantallas grandes */
 
-@media all and (min-width: 991px) {
+@media all and (min-width: 992px) {
   .imgCatProducto {
     height: 300px;
   }
@@ -206,5 +213,23 @@
   .catCircle {
     height: 300px;
     width: 300px;
+  }
+
+  .cardProd button {
+    font-size: 15px;
+  }
+}
+
+/* Pantallas xl */
+@media all and (min-width: 1200px) and (max-width:1399px) {
+  .cardProd button {
+    margin-top: 3px !important;
+    margin-bottom: 3px !important;
+  }
+}
+@media all and (min-width: 1400px) {
+  
+  .cardProdFooter {
+    justify-content: space-between !important;
   }
 }
