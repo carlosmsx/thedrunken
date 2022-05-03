@@ -117,7 +117,7 @@
           </div>
           <div class="col-md-6">
             <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" placeholder="name@example.com"/>
+            <input type="email" class="form-control" id="email" placeholder="name@example.com" required minlength="5" maxlength="40"/>
           </div>
           <div class="col-md-3">
             <label for="userName" class="form-label">Usuario</label>
@@ -132,43 +132,40 @@
             />
           </div>
           <div class="col-md-3">
-            <label for="password" class="form-label"
-              >Contrase&ntilde;a</label
-            >
+            <label for="password" class="form-label">Contrase&ntilde;a</label>
             <input
-              type="email"
+              type="password"
               class="form-control"
               id="password"
               placeholder=""
+              required
+              minlength="7"
+              maxlength="10"
             />
           </div>
           <div class="col-md-6">
-            <label for="domicilio" class="form-label"
-              >Domicilio</label
-            >
+            <label for="domicilio" class="form-label">Domicilio</label>
             <input
-              type="email"
+              type="text"
               class="form-control"
               id="domicilio"
               placeholder="calle número"
+              required
+              minlength="3"
+              maxlength="50"
             />
           </div>
           <div class="col-md-2">
-            <label for="codigoPostal" class="form-label"
-              >CP</label
-            >
-            <input
-              type="email"
-              class="form-control"
-              id="codigoPostal"
-              placeholder="4000"
-            />
+            <label for="codigoPostal" class="form-label">CP</label>
+            <input class="form-control" id="codigoPostal" placeholder="4000" required type="number"/>
           </div>
           <div class="col-md-4">
             <label for="telefono" class="form-label">Tel&eacute;fono</label>
-              <input type="email" class="form-control" id="telefono" placeholder="tel&eacute;fono"/>
+            <input type="tel" class="form-control" id="telefono" placeholder="tel&eacute;fono" required maxlength="11"/>
           </div>
-          <button type="submit" class="btn bg-button btn-block my-3 col-1 col-sm-1 me-auto">Enviar</button>
+          <div>
+            <button type="submit" class="btn button-style btn-block my-3 col-1 col-sm-1 me-auto">Enviar</button>
+          </div>
         </form>
       </div>
     </main>

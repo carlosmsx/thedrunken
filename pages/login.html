@@ -102,19 +102,20 @@
                       <label for="username" class="form-label">Usuario</label>
                     </div>
                     <div class="col-sm-8">
-                        <input type="text" id="username" class="form-control" value="" placeholder="Usuario" autocomplete="username"/>
+                        <input type="text" id="username" class="form-control" value="" placeholder="Usuario" autocomplete="username" required minlength="7" maxlength="10"/>
                     </div>
                     <div class="col-sm-4 col-form-label text-start">
                         <label for="password" class="form-label">Contraseña</label>
                     </div>
                     <div class="col-sm-8">
-                      <input type="password" id="password" value="" class="form-control" placeholder="Contraseña" autocomplete="current-password"/>
+                      <input type="password" id="password" value="" class="form-control" placeholder="Contraseña" autocomplete="current-password" required minlength="7" maxlength="10"/>
                     </div>
                     <!-- <div class="mt-3">
                       <input type="checkbox" id="rememberusername" value="1"/>
                       <label for="rememberusername">Recordar nombre de usuario</label>
                     </div> -->
-                    <button type="submit" class="btn bg-button btn-block my-3 col-sm-4 mx-auto" id="loginbtn">Acceder</button>
+                    <button type="submit" class="btn button-style btn-block my-3 col-sm-4 mx-auto" id="loginbtn">Acceder</button>
+                  </form>
                     <hr>
                     <div class="mt-1">
                         <button class="btn btn-primary btn-block mt-3 w-75 text-start"><i class="fa-brands fa-facebook fs-4 mx-1"></i>Ingresa con Facebook</button>
@@ -123,9 +124,8 @@
                         <button class="btn btn-secondary btn-block mt-3 w-75 text-start"><i class="fa-brands fa-google fs-4 mx-1"></i>Ingresa con Google</button>
                     </div>
                     <div class="mt-1">
-                        <a href="registro.html" class="btn bg-button btn-block mt-3 w-75 text-start"><i class="fa-solid fa-at fs-4 mx-1"></i>Registrate</a>
+                        <a href="registro.html" class="btn button-style btn-block mt-3 w-75 text-start"><i class="fa-solid fa-at fs-4 mx-1"></i>Registrate</a>
                     </div>
-                  </form>
                 </div>
               </div>
             </div>
