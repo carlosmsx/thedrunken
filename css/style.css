@@ -93,15 +93,6 @@
   border: solid 1px #5a4181;
 }
 
-/* Cards */
-.cards {
-  text-decoration: none;
-  color: #000;
-}
-.cards:hover {
-  color: #000;
-}
-
 /* Cards productos */
 
 .cardProd h5 {
@@ -152,6 +143,11 @@
   max-width: 547px;
 }
 
+/* Pagina detalle */
+.imgDetalleProd{
+  object-fit: cover;
+}
+
 /* Media para que desaparezca el buscador en un determinado tamaño */
 @media all and (min-width: 768px) {
   .nav-search {
@@ -193,6 +189,7 @@
   .textCatCircle {
     font-size: 30px;
   }
+
 }
 
 /* Pantallas grandes */
