@@ -110,10 +110,6 @@
   font-size: 50px;
 }
 
-.cardProd button {
-  font-size: small;
-}
-
 /* Pagina principal */
 
 .imgBanner {
@@ -215,21 +211,23 @@
     width: 300px;
   }
 
+  .cardProd b {
+    font-size: 18px !important;
+  }
+  
   .cardProd button {
-    font-size: 15px;
+    padding: 8px;
+    font-size: 11px;
   }
 }
 
-/* Pantallas xl */
-@media all and (min-width: 1200px) and (max-width:1399px) {
-  .cardProd button {
-    margin-top: 3px !important;
-    margin-bottom: 3px !important;
+@media all and (min-width: 1200px) {
+  .cardProd b {
+    font-size: 23px !important;
   }
-}
-@media all and (min-width: 1400px) {
-  
-  .cardProdFooter {
-    justify-content: space-between !important;
+
+  .cardProd button {
+    padding: 8px;
+    font-size: 14px;
   }
 }
