@@ -1,9 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@800&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
 
-*{
-  font-family: 'Inter', sans-serif;
+* {
+  font-family: "Inter", sans-serif;
 }
 
 .logo {
@@ -19,8 +18,8 @@
 }
 .button-style {
   color: white;
-  border: #F82D30;
-  background-color: #F82D30;
+  border: #f82d30;
+  background-color: #f82d30;
 }
 .button-style:hover {
   color: white;
@@ -31,11 +30,7 @@
   color: #f82d30;
 }
 
-.bg-bodyGris {
-  background-color: #e2e1e2;
-}
-
-.bg-bodyAzul{
+.bg-bodyAzul {
   background-color: #232244;
 }
 
@@ -70,13 +65,6 @@
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   height: 35px;
-}
-
-/* banner categoria cerveza */
-.banner-cerveza {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
 }
 
 /* Cambio de colores paginacion */
@@ -128,6 +116,7 @@
 .textCatProducto {
   color: white;
   font-weight: 700;
+  font-size: 50px;
 }
 
 /* Pagina principal */
@@ -137,23 +126,30 @@
   object-fit: cover;
 }
 
-.badgeNuevo{
+.badgeNuevo {
   background: #bd0007;
 }
 
-.categoriasProd{
-  object-fit:cover;
+.categoriasProd {
+  object-fit: cover;
 }
 
-.catCircle{
+.catCircle {
   height: 300px;
   width: 300px;
+  text-shadow: -1px 1px 16px black;
+}
+
+.textCatCircle {
+  color: white;
+  font-weight: 700;
+  font-size: 50px;
 }
 
 /* Pagina Login */
-.imageLogin{
-  width:100%;
-  max-width:547px;
+.imageLogin {
+  width: 100%;
+  max-width: 547px;
 }
 
 /* Media para que desaparezca el buscador en un determinado tamaño */
@@ -189,24 +185,29 @@
   .imgBanner {
     height: 500px;
   }
+  .catCircle {
+    height: 200px;
+    width: 200px;
+  }
+
+  .textCatCircle {
+    font-size: 30px;
+  }
 }
 
 /* Pantallas grandes */
-@media all and (min-width: 992px) {
-  .imgCatProducto {
-    height: 250px;
-  }
 
-  .imgBanner {
-    height: 600px;
-  }
-}
 @media all and (min-width: 991px) {
   .imgCatProducto {
-    height: 400px;
+    height: 300px;
   }
 
   .imgBanner {
     height: 600px;
+  }
+
+  .catCircle {
+    height: 300px;
+    width: 300px;
   }
 }
