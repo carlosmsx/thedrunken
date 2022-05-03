@@ -148,6 +148,12 @@
   object-fit: cover;
 }
 
+.imgUsuario {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
 /* Media para que desaparezca el buscador en un determinado tamaño */
 @media all and (min-width: 768px) {
   .nav-search {
@@ -214,7 +220,7 @@
   .cardProd b {
     font-size: 18px !important;
   }
-  
+
   .cardProd button {
     padding: 8px;
     font-size: 11px;
