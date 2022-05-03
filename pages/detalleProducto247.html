@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="author"
+      content="Francisco Andrade, Carlos Escobar, Maria Valentina Ormaechea"
+    />
+    <meta name="description" content="Venta de bebidas alcoholicas" />
+    <meta
+      name="keywords"
+      content="+18, licor, bebidas, cervezas, alcohol, previa, destilados, whisky"
+    />
+    <script
+      src="https://kit.fontawesome.com/db30d1a3bd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>theDrunken</title>
+  </head>
+  <body class="bg-cuerpo">
+    <header>
+      <nav class="navbar navbar-expand-xl navbar-dark bg-nav py-3">
+        <div class="container">
+          <a class="navbar-brand logo" href="../index.html">theDrunken</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#contenidoNav"
+            aria-controls="contenidoNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="contenidoNav">
+            <form
+              class="d-flex justify-content-center ms-auto mt-4 mb-3 my-lg-2"
+            >
+              <input
+                class="nav-search"
+                type="search"
+                placeholder="Buscá tu bebida favorita"
+                aria-label="Search"
+                required
+                minlength="2"
+              />
+              <button class="nav-search-icon" type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+            <ul class="navbar-nav ms-auto me-0 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="quienesSomos.html">Acerca de</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDesplegable"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Catalogo
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDesplegable">
+                  <li>
+                    <a
+                      class="dropdown-item active"
+                      aria-current="page"
+                      href="catCervezas.html"
+                      >Cervezas</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="catVinos.html">Vinos</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item row">
+                <div class="col-10 col-md-11 col-lg-10 pe-0">
+                  <a class="nav-link pe-0" href="login.html">Iniciar Sesion</a>
+                </div>
+                <div class="col-2 col-md-1 col-lg-2 text-center">
+                  <a class="nav-link ps-auto" href="carrito.html"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="container my-5 bg-white">
+        <article class="py-3 px-5">
+          <h1 class="pt-4 text-center">Detalle de producto</h1>
+          <hr />
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <img
+                src="../img/cerveza/cerveza_patagonia_247.jpg"
+                class="w-100"
+                alt="Lata de cerveza Patagonia"
+              />
+            </div>
+            <div class="col-12 col-lg-6 py-5">
+              <h3>Patagonia 24.7 473ml</h3>
+              <hr />
+              <div class="d-flex justify-content-between">
+                <b class="fs-4">$180,00</b>
+                <button class="btn rojoSecundario button-style" type="button">
+                  Añadir al carrito
+                </button>
+              </div>
+
+              <hr />
+              <h5>Información del producto</h5>
+              <p>
+                Cerveza estilo Session IPA, muy tomable y refrescante, de
+                amargor marcado otorgado por una combinación de lúpulos
+                patagónicos. Cuenta con un intenso aroma a cítrico y frutal
+                gracias a la técnica de agregado de lúpulo en frío llamada Dry
+                Hopping. El agregado de sauco y miel en frio balancean el
+                amargor del lúpulo, aportando cierta acidez y final seco.
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer class="bg-light">
+      <div class="py-3">
+        <div class="container">
+          <div class="justify-content-between row text-center text-md-start">
+            <div class="col-12 col-md-12 col-lg-4 py-4">
+              <h5 class="logo">theDrunken</h5>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <h6 class="pt-5 pt-md-4">Sigamos Conectados</h6>
+              <div class="my-3">
+                <a href="#"
+                  ><i class="fa-brands fa-facebook text-secondary fs-4 mx-1"></i
+                ></a>
+                <a href="#"
+                  ><i
+                    class="fa-brands fa-instagram text-secondary fs-4 mx-1"
+                  ></i
+                ></a>
+                <a href="#"
+                  ><i class="fa-brands fa-whatsapp text-secondary fs-4 mx-1"></i
+                ></a>
+                <a href="#"
+                  ><i class="fa-brands fa-telegram text-secondary fs-4 mx-1"></i
+                ></a>
+                <h6 class="pt-5 pt-md-4">Formas de Pago</h6>
+              </div>
+              <div>
+                <img src="img/pagos.webp" width="70%" alt="tipos de pagos" />
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <h6 class="pt-5 pt-md-4">Nosotros</h6>
+              <p class="my-1 fs-6">
+                <a class="text-dark text-decoration-none" href="#"
+                  >Formas de pago</a
+                >
+              </p>
+              <p class="my-1 fs-6">
+                <a class="text-dark text-decoration-none" href="#"
+                  >Tiempos y formas de entrega</a
+                >
+              </p>
+              <p class="my-1 fs-6">
+                <a class="text-dark text-decoration-none" href="#"
+                  >Quienes somos</a
+                >
+              </p>
+              <p class="my-1 fs-6">
+                <a class="text-dark text-decoration-none" href="#"
+                  >Sucursales</a
+                >
+              </p>
+              <p class="my-1 fs-6">
+                <a class="text-dark text-decoration-none" href="#"
+                  >Devoluciones</a
+                >
+              </p>
+              <div>
+                <img
+                  class="py-3 img-fluid"
+                  src="img/DATAWEB.jpg"
+                  width="18%"
+                  alt="datos fiscales"
+                />
+              </div>
+            </div>
+          </div>
+          <p class="text-center mt-5">
+            theDrunken &copy; 2022. Todos los derechos reservados
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
