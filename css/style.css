@@ -195,7 +195,7 @@
 }
 @media all and (min-width: 1024px) {
   .nav-search {
-    width: 400px;
+    width: 300px;
   }
 }
 @media all and (min-width: 1400px) {
