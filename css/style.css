@@ -233,8 +233,8 @@
     font-size: 14px;
   }
 
-  .textExplorar{
-    font-size: 40px;
+  .textCatSmall {
+    font-size: 30px;
   }
 }
 
@@ -262,6 +262,18 @@
     padding: 8px;
     font-size: 11px;
   }
+
+  
+  .textExplorar {
+    font-size: 50px;
+  }
+  .textCat {
+    font-size: 40px;
+  }
+
+  .textCatSmall {
+    font-size: 25px;
+  }
 }
 
 @media all and (min-width: 1200px) {
@@ -272,5 +284,17 @@
   .cardProd button {
     padding: 8px;
     font-size: 14px;
+  }
+
+  .textExplorar {
+    font-size: 60px;
+  }
+
+  .textCat {
+    font-size: 50px;
+  }
+
+  .textCatSmall {
+    font-size: 30px;
   }
 }
