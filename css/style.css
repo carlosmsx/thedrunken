@@ -137,19 +137,16 @@
   font-size: 50px;
 }
 
-.textCat:hover,.textCatSmall:hover{
+.textCat:hover,
+.textCatSmall:hover {
   color: #f82d30;
   text-shadow: -1px 1px 16px black;
 }
 
-.textCatSmall{
+.textCatSmall {
   text-shadow: -1px 1px 16px black;
   color: white;
   font-weight: 600;
-}
-
-.textExplorar{
-  
 }
 
 /* Pagina Login */
@@ -169,7 +166,7 @@
   object-fit: cover;
 }
 
-.breadcrumb a{
+.breadcrumb a {
   text-decoration: none;
   color: #f82d30;
 }
