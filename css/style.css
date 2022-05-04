@@ -232,6 +232,10 @@
   .cardProd button {
     font-size: 14px;
   }
+
+  .textExplorar{
+    font-size: 40px;
+  }
 }
 
 /* Pantallas grandes */
