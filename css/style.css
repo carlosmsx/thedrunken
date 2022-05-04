@@ -131,14 +131,19 @@
   text-shadow: -1px 1px 16px black;
 }
 
+.textCatCircle {
+  color: white;
+  font-weight: 700;
+  font-size: 50px;
+}
+
 .textCat {
   color: white;
   font-weight: 700;
   font-size: 50px;
 }
 
-.textCat:hover,
-.textCatSmall:hover {
+.textCat :hover {
   color: #f82d30;
   text-shadow: -1px 1px 16px black;
 }
@@ -147,6 +152,17 @@
   text-shadow: -1px 1px 16px black;
   color: white;
   font-weight: 600;
+}
+
+.textCatSmall:hover {
+  color: #f82d30;
+  text-shadow: -1px 1px 16px black;
+}
+
+.textExplorar {
+  color: white;
+  font-weight: 700;
+  font-size: 60px;
 }
 
 /* Pagina Login */
