@@ -154,6 +154,11 @@
   object-fit: cover;
 }
 
+.breadcrumb a{
+  text-decoration: none;
+  color: #f82d30;
+}
+
 /* Media para que desaparezca el buscador en un determinado tamaño */
 @media all and (min-width: 768px) {
   .nav-search {
