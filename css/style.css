@@ -140,7 +140,7 @@
 .textCat {
   color: white;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .textCat :hover {
@@ -162,7 +162,7 @@
 .textExplorar {
   color: white;
   font-weight: 700;
-  font-size: 60px;
+  font-size: 45px;
 }
 
 /* Pagina Login */
@@ -233,8 +233,8 @@
     font-size: 14px;
   }
 
-  .textCatSmall {
-    font-size: 30px;
+  .textExplorar{
+    font-size: 50px;
   }
 }
 
