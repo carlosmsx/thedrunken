@@ -212,6 +212,12 @@
   }
 }
 
+/* Pantallas xs */
+@media (min-width: 100px) and (max-width:575px){
+  .cardProd button {
+    font-size: 12px;
+  }
+}
 /* Pantallas medianas */
 @media (min-width: 768px) and (max-width: 991px) {
   .imgCatProducto {
