@@ -30,10 +30,6 @@
   color: #f82d30;
 }
 
-.bg-bodyAzul {
-  background-color: #232244;
-}
-
 /* Buscador del navbar */
 .nav-search {
   background: #fff;
@@ -213,7 +209,7 @@
 }
 
 /* Pantallas xs */
-@media (min-width: 100px) and (max-width:575px){
+@media (min-width: 100px) and (max-width: 575px) {
   .cardProd button {
     font-size: 12px;
   }
@@ -239,7 +235,7 @@
     font-size: 14px;
   }
 
-  .textExplorar{
+  .textExplorar {
     font-size: 50px;
   }
 }
@@ -269,7 +265,6 @@
     font-size: 11px;
   }
 
-  
   .textExplorar {
     font-size: 50px;
   }
