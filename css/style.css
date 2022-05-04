@@ -14,7 +14,7 @@
   background-color: #00001e;
 }
 .bg-cuerpo {
-  background-color: #eeeeee;
+  background-color: #232244;
 }
 .button-style {
   color: white;
@@ -28,10 +28,6 @@
 }
 .links {
   color: #f82d30;
-}
-
-.bg-bodyAzul {
-  background-color: #232244;
 }
 
 /* Buscador del navbar */
@@ -93,15 +89,6 @@
   border: solid 1px #5a4181;
 }
 
-/* Cards */
-.cards {
-  text-decoration: none;
-  color: #000;
-}
-.cards:hover {
-  color: #000;
-}
-
 /* Cards productos */
 
 .cardProd h5 {
@@ -146,10 +133,54 @@
   font-size: 50px;
 }
 
+.textCat {
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.textCat :hover {
+  color: #f82d30;
+  text-shadow: -1px 1px 16px black;
+}
+
+.textCatSmall {
+  text-shadow: -1px 1px 16px black;
+  color: white;
+  font-weight: 600;
+}
+
+.textCatSmall:hover {
+  color: #f82d30;
+  text-shadow: -1px 1px 16px black;
+}
+
+.textExplorar {
+  color: white;
+  font-weight: 700;
+  font-size: 45px;
+}
+
 /* Pagina Login */
 .imageLogin {
   width: 100%;
   max-width: 547px;
+}
+
+/* Pagina detalle */
+.imgDetalleProd {
+  object-fit: cover;
+}
+
+.imgUsuario {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #f82d30;
 }
 
 /* Media para que desaparezca el buscador en un determinado tamaño */
@@ -160,7 +191,7 @@
 }
 @media all and (min-width: 1024px) {
   .nav-search {
-    width: 400px;
+    width: 300px;
   }
 }
 @media all and (min-width: 1400px) {
@@ -177,6 +208,12 @@
   }
 }
 
+/* Pantallas xs */
+@media (min-width: 100px) and (max-width: 575px) {
+  .cardProd button {
+    font-size: 12px;
+  }
+}
 /* Pantallas medianas */
 @media (min-width: 768px) and (max-width: 991px) {
   .imgCatProducto {
@@ -193,11 +230,19 @@
   .textCatCircle {
     font-size: 30px;
   }
+
+  .cardProd button {
+    font-size: 14px;
+  }
+
+  .textExplorar {
+    font-size: 50px;
+  }
 }
 
 /* Pantallas grandes */
 
-@media all and (min-width: 991px) {
+@media all and (min-width: 992px) {
   .imgCatProducto {
     height: 300px;
   }
@@ -209,5 +254,48 @@
   .catCircle {
     height: 300px;
     width: 300px;
+  }
+
+  .cardProd b {
+    font-size: 18px !important;
+  }
+
+  .cardProd button {
+    padding: 8px;
+    font-size: 11px;
+  }
+
+  .textExplorar {
+    font-size: 50px;
+  }
+  .textCat {
+    font-size: 40px;
+  }
+
+  .textCatSmall {
+    font-size: 25px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .cardProd b {
+    font-size: 23px !important;
+  }
+
+  .cardProd button {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .textExplorar {
+    font-size: 60px;
+  }
+
+  .textCat {
+    font-size: 50px;
+  }
+
+  .textCatSmall {
+    font-size: 30px;
   }
 }
