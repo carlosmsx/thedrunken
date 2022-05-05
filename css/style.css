@@ -167,6 +167,14 @@
   max-width: 547px;
 }
 
+.fs-7 {
+  font-size: 0.8rem!important;
+}
+
+.buttonWide {
+  width: 75%;
+}
+
 /* Pagina detalle */
 .imgDetalleProd {
   object-fit: cover;
@@ -238,6 +246,10 @@
   .textExplorar {
     font-size: 50px;
   }
+
+  .buttonWide {
+    width: 100%;
+  } 
 }
 
 /* Pantallas grandes */
