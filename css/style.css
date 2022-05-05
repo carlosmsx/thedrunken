@@ -103,7 +103,7 @@
 .textCatProducto {
   color: white;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 /* Pagina principal */
@@ -168,7 +168,7 @@
 }
 
 .fs-7 {
-  font-size: 0.8rem!important;
+  font-size: 0.8rem !important;
 }
 
 .buttonWide {
@@ -249,14 +249,14 @@
 
   .buttonWide {
     width: 100%;
-  } 
+  }
 }
 
 /* Pantallas grandes */
 
 @media all and (min-width: 992px) {
   .imgCatProducto {
-    height: 300px;
+    height: 250px;
   }
 
   .imgBanner {
@@ -268,6 +268,18 @@
     width: 300px;
   }
 
+  .textExplorar {
+    font-size: 50px;
+  }
+
+  .textCat {
+    font-size: 40px;
+  }
+
+  .textCatSmall {
+    font-size: 25px;
+  }
+
   .cardProd b {
     font-size: 18px !important;
   }
@@ -275,17 +287,6 @@
   .cardProd button {
     padding: 8px;
     font-size: 11px;
-  }
-
-  .textExplorar {
-    font-size: 50px;
-  }
-  .textCat {
-    font-size: 40px;
-  }
-
-  .textCatSmall {
-    font-size: 25px;
   }
 }
 
@@ -309,5 +310,9 @@
 
   .textCatSmall {
     font-size: 30px;
+  }
+
+  .textCatProducto {
+    font-size: 50px;
   }
 }
